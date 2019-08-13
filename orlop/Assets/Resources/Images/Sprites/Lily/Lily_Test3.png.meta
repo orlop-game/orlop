@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: 8d6a69f6658f9d54094ea5550fa117df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9012465548638122475
+    second: Lily_Test3_0
+  - first:
+      213: 4995221966032489240
+    second: Lily_Test3_1
+  - first:
+      213: -2696348138617034215
+    second: Lily_Test3_2
+  - first:
+      213: -2926432442519977123
+    second: Lily_Test3_3
+  - first:
+      213: 2810640473781630518
+    second: Lily_Test3_4
+  - first:
+      213: 7000946108821720686
+    second: Lily_Test3_5
+  - first:
+      213: 5303925785016500919
+    second: Lily_Test3_6
+  - first:
+      213: 8708832069333873531
+    second: Lily_Test3_7
+  - first:
+      213: -2637902637522215919
+    second: Lily_Test3_8
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 511
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lily_Test3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 537
+        width: 11
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d571e46ed0aca2f48b5c89c586d89480
+      internalID: 9012465548638122475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lily_Test3_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 117
+        width: 367
+        height: 653
+      alignment: 9
+      pivot: {x: 0.5875595, y: 0.046171367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0358f0a6b014a4ab1350c9c1f63ff6
+      internalID: 4995221966032489240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lily_Test3_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 104
+        width: 333
+        height: 664
+      alignment: 9
+      pivot: {x: 0.61794376, y: 0.064444095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2eec018e4f94bb49bc44181a86ca4dc
+      internalID: -2696348138617034215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lily_Test3_3
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 96
+        width: 372
+        height: 672
+      alignment: 9
+      pivot: {x: 0.5863823, y: 0.05368959}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc7ca196cb57854fa9f32446895d635
+      internalID: -2926432442519977123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lily_Test3_4
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 93
+        width: 341
+        height: 682
+      alignment: 9
+      pivot: {x: 0.45346758, y: 0.061262023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d623d9632a70074a997aa775ed180d8
+      internalID: 2810640473781630518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lily_Test3_5
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 96
+        width: 373
+        height: 672
+      alignment: 9
+      pivot: {x: 0.39668727, y: 0.05135986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c66055f20aefbc4b95342869ebc57f1
+      internalID: 7000946108821720686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lily_Test3_6
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 98
+        width: 333
+        height: 664
+      alignment: 9
+      pivot: {x: 0.37747, y: 0.071426004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0538826022916c24d97031e26bc22aad
+      internalID: 5303925785016500919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lily_Test3_7
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 116
+        width: 366
+        height: 652
+      alignment: 9
+      pivot: {x: 0.41329205, y: 0.045197118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58aac1c7eeeffaf498c4e4b66fbbd531
+      internalID: 8708832069333873531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lily_Test3_8
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 93
+        width: 422
+        height: 682
+      alignment: 9
+      pivot: {x: 0.37645385, y: 0.036561556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4bac7a4caa5434aa745aee75a9aaff
+      internalID: -2637902637522215919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 495ee2a6fb09a4740a8ffaea7c9f0291
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
