@@ -8,15 +8,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SpriteShadowMaterial
-  m_Shader: {fileID: 4800000, guid: 7a69b65520ec7514794dd33a05bcfcb8, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_Shader: {fileID: 4800000, guid: f1c332c0884ef2b4bb26584f688eac3a, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _ALPHABLEND_ON _ALPHA_CLIP _FIXED_NORMALS_VIEWSPACE_BACKFACE
+    _SPHERICAL_HARMONICS
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2450
   stringTagMap:
     AlphaDepth: False
-    IGNOREPROJECTOR: False
+    IGNOREPROJECTOR: true
+    RenderType: TransparentCutout
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -86,11 +88,11 @@ Material:
     - _DissolveEdgePower: 0.1
     - _DissolveNoiseScale: 1
     - _Distortion: 0
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _EmissionPower: 1
     - _EnableExternalAlpha: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _Hue: 0
     - _Metallic: 0
@@ -99,14 +101,14 @@ Material:
     - _Parallax: 0.02
     - _Power: 1
     - _RenderQueue: 0
-    - _RimPower: 10
+    - _RimPower: 100
     - _Saturation: 1
     - _Scale: 0.5
-    - _ShadowAlphaCutoff: 0.1
+    - _ShadowAlphaCutoff: 0.03
     - _Shininess: 0.03
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
@@ -118,6 +120,6 @@ Material:
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _OverlayColor: {r: 0, g: 0, b: 0, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _RimColor: {r: 1, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 0, g: 1, b: 0.040144444, a: 1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _SubColor: {r: 1, g: 1, b: 1, a: 1}
