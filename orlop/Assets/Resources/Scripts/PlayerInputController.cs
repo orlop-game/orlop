@@ -25,6 +25,7 @@ public class PlayerInputController : MonoBehaviour
     { "GEMSWAP", new []{"p"} },
     { "MENU", new []{"m"} },
     { "EXIT", new []{"escape"} },
+    { "INTERACT", new []{"e"} },
 };
 
     // WASD -> movement, anim
@@ -40,6 +41,7 @@ public class PlayerInputController : MonoBehaviour
 //player input
 
     private MovementController _movementController;
+    private PlayerInteractionController _playerInteractionController;
     //private BaseActor _actor;
     private GameObject _obj;
     private GameManager _gameManager;
@@ -47,9 +49,10 @@ public class PlayerInputController : MonoBehaviour
 
     void Awake()
     {
-        _obj = GameObject.Find("PlayerObject");
-        _movementController = _obj.GetComponent("MovementController") as MovementController;
-        _gameManager = GameManager.GetGameManager(); // GameManager singleton
+        _obj                            = GameObject.Find("PlayerObject");
+        _movementController             = _obj.GetComponent(typeof(MovementController)) as MovementController;
+        _playerInteractionController    = _obj.GetComponent(typeof(PlayerInteractionController)) as PlayerInteractionController;
+        _gameManager                    = GameManager.GetGameManager(); // GameManager singleton
     }
 
     // Start is called before the first frame update
@@ -128,6 +131,11 @@ public class PlayerInputController : MonoBehaviour
         if (Input.GetKeyDown(_inputs["CAMERA"][0]))
         {
            _cameraManager.RotateClockwise();
+        }
+
+        if (Input.GetKeyDown(_inputs["INTERACT"][0]))
+        {
+            _playerInteractionController.Interact();
         }
 
         /** TODO:

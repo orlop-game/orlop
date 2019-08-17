@@ -1,0 +1,45 @@
+[33mcommit 40d42b2bf7dbfb95d29ffe1325f64eaf1b623022[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Johnny Orlop, III <53236723+orlop-game@users.noreply.github.com>
+Date:   Fri Aug 16 17:48:33 2019 -0700
+
+    Ayann working (#2)
+    
+    * added test island model
+    
+    * post processing
+
+[33mcommit 0f344141fbf0b6e0681374ed9e415690bd5b9a6d[m
+Author: orlop-game <orlop-game@github.com>
+Date:   Wed Aug 14 21:28:29 2019 -0700
+
+    actuall added it this time
+
+[33mcommit 437479ad688085172b94bcb4436e773c7e9ff3c2[m
+Author: orlop-game <orlop-game@github.com>
+Date:   Wed Aug 14 21:19:11 2019 -0700
+
+    added a couple new shader things, new scene w/ island and skybox, and some random normal images i'll prob delete later
+
+[33mcommit 0ad8590e7483862e197748215d1d2c6e7066b015[m
+Author: Ayann <ayannorlop@github.com>
+Date:   Wed Aug 14 23:22:21 2019 -0400
+
+    added test island model
+
+[33mcommit 0f56deffb2ea2998dad63aed061294b5d978bf4d[m
+Author: orlop-game <orlop-game@github.com>
+Date:   Mon Aug 12 19:31:15 2019 -0700
+
+    added basic player, movement, sprites, lighting
+
+[33mcommit 3d271335880eeb1825f3ee56a008baa52c8d3dcd[m
+Author: orlop-game <orlop-game@github.com>
+Date:   Tue Jul 30 00:25:10 2019 -0700
+
+    added orlop unity
+
+[33mcommit e33e00b1bd0f45adc874153acf8cabeb54b3b8fe[m
+Author: Johnny Orlop, III <53236723+orlop-game@users.noreply.github.com>
+Date:   Tue Jul 30 00:06:42 2019 -0700
+
+    Initial commit
