@@ -9,16 +9,15 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: SpriteShadowMaterial
   m_Shader: {fileID: 4800000, guid: f1c332c0884ef2b4bb26584f688eac3a, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _ALPHABLEND_ON _ALPHA_CLIP _FIXED_NORMALS_VIEWSPACE_BACKFACE
-    _SPHERICAL_HARMONICS
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _ALPHABLEND_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 2450
+  m_CustomRenderQueue: 3000
   stringTagMap:
-    AlphaDepth: False
+    AlphaDepth: true
     IGNOREPROJECTOR: true
-    RenderType: TransparentCutout
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -110,7 +109,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _UVSec: 0
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveEdgeColor: {r: 1, g: 1, b: 1, a: 1}
